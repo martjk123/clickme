@@ -1,0 +1,189 @@
+.container1{
+    display:flex;
+    justify-content:center;
+    
+}
+
+#will{
+    margin-right:5px;
+    font-size:2em;
+    font-weight:bold;
+}
+
+
+#be{
+font-size:2em;
+font-weight:bold;
+}
+@keyframes be{
+    0%{color:black}
+    50%{color:white}
+}
+
+
+#girl{
+    border-radius:5px;
+    padding:5px;
+    background-color:red;
+    color:white;
+font-size:2em;
+font-weight:bold;
+animation-name:girl;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+@keyframes girl{
+    0%{color:white}
+    50%{color:red}
+    0%{background-color:red}
+    50%{background-color:white}
+}
+
+
+.container2{
+    display:flex;
+    justify-content:center;
+}
+
+.maindiv{
+    margin-top:50px;
+ 
+}
+
+.buttons{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+}
+
+#yes{
+margin-right:10px;
+font-size:1.4em;
+border-radius:10px;
+border:none;
+padding:5px;
+padding-left:15px;
+padding-right:15px;
+background-color:rgb(12, 196, 12);
+color:white;
+font-weight:bold;
+cursor:pointer;
+}#yes:hover{
+    background-color:blue;
+}
+
+#no{
+font-size:1.5em;
+border-radius:10px;
+border:none;
+padding:3.5px;
+padding-left:18px;
+padding-right:15px;
+background-color:red;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+#no:hover{
+   background-color:blue;
+}
+
+body{
+    background-color:pink;
+    animation-name:body;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+@keyframes body{
+    0%{background-color:rgb(237, 142, 142)}
+    50%{background-color:rgb(249, 132, 214)}
+    80%{background-color:rgb(236, 244, 160)}
+}
+
+#rose1{
+    height:150px;
+    
+}
+
+#divrose1{
+    margin-top:-60px;
+    display:flex;
+    justify-content:center;
+}
+
+.maindev2{
+   margin-top:100px;
+}
+
+#gif2div{
+    display:flex;
+    justify-content:center;
+}
+
+#gif2{
+    height:140px;
+    display:none;
+    border-radius:50%;
+}
+
+#luvdiv{
+display:flex;
+justify-content:center;
+}
+
+#luv{
+    display:none;
+    font-size:2em;
+    background-color:red;
+    color:white;
+    padding:12px;
+    margin-top:12px;
+    border-radius:12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    animation-name:luv;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes luv{
+    0%{color:white}
+    50%{color:red}
+    0%{background-color:red}
+    50%{background-color:white}
+}
+
+.container3{
+    margin-top:50px;
+  display:flex;
+  justify-content:space-between;
+}
+
+#divflower3{
+
+}
+
+#flower3{
+height:120px;
+display:none;
+}
+
+#divgif3{
+
+}
+
+#gif3{
+height:120px;
+display:none
+}
+
+#divflowers2{
+margin-top:-80px;
+}
+
+#flowers2{
+height:100px;
+display:none;
+}
+
